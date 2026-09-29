@@ -10,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <title>Mina Jevtić | Portfolio</title>
+  <meta name="description" content="Portfolio of Mina Jevtić, web developer from Belgrade: PHP, Laravel, MySQL, JavaScript, HTML, CSS and Sass.">
+  <link rel="stylesheet" href="./access/css/fixes.css">
+  <title>Mina Jevtić | Web Developer Portfolio</title>
 </head>
 
 <body>
@@ -31,27 +33,15 @@
     <div id="slova">
       <h2>Hello, my name is</h2>
       <h1>Mina Jevtić</h1>
-      <h3>and i'm front-end developer.</h3>
+      <h3>and I'm a web developer.</h3>
       <div class="wrapper">
-        <div class="icon facebook">
-          <div class="tooltip">Facebook</div>
-          <span><i class="fab fa-facebook-f"></i></span>
-        </div>
-        <div class="icon twitter">
-          <div class="tooltip">Twitter</div>
-          <span><i class="fab fa-twitter"></i></span>
-        </div>
-        <div class="icon instagram">
-          <div class="tooltip">Instagram</div>
-          <span><i class="fab fa-instagram"></i></span>
-        </div>
         <div class="icon github">
           <div class="tooltip">Github</div>
-          <span><i class="fab fa-github"></i></span>
+          <span><a href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="fab fa-github"></i></a></span>
         </div>
-        <div class="icon youtube">
-          <div class="tooltip">Youtube</div>
-          <span><i class="fab fa-youtube"></i></span>
+        <div class="icon email">
+          <div class="tooltip">Email</div>
+          <span><a href="mailto:jevticm319@gmail.com" aria-label="Send an email"><i class="fas fa-envelope"></i></a></span>
         </div>
       </div>
     </div>
@@ -75,6 +65,22 @@
       <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/external-responsive-web-hosting-xnimrodx-lineal-xnimrodx.png" alt="external-responsive-web-hosting-xnimrodx-lineal-xnimrodx">
         <h1>Responsive</h1>
         <p> design adjusts websites for optimal viewing on different devices.</p>
+      </div>
+      <div class="skills2"><i class="fab fa-php"></i>
+        <h1>PHP</h1>
+        <p>is a server-side language used to build dynamic sites, logins, forms and admin panels.</p>
+      </div>
+      <div class="skills2"><i class="fab fa-laravel"></i>
+        <h1>Laravel</h1>
+        <p>is a PHP framework for structured web apps with routing, Blade templates and Eloquent.</p>
+      </div>
+      <div class="skills2"><i class="fas fa-database"></i>
+        <h1>MySQL</h1>
+        <p>is a relational database used to store and query the data behind web applications.</p>
+      </div>
+      <div class="skills2"><i class="fab fa-git-alt"></i>
+        <h1>Git &amp; GitHub</h1>
+        <p>version control for tracking changes and publishing projects.</p>
       </div>
       <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/ios-filled/150/sass.png" alt="sass">
         <h1>Sass</h1>
@@ -143,35 +149,35 @@
   <div id="projects">
     <h1><a href="#">Projects</a></h1>
     <div class="project">
-      <div class="project-item">
-        <img src="./access/slike/project1.png" alt="project1">
+      <a class="project-link" href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener"><div class="project-item">
+        <img src="./access/slike/project1.png" alt="Restaurant website preview">
         <div class="overlay">
           <div class="caption">
             <h2>RESTAURANT</h2>
-            <p>Restaurant-technologies:HTML,CSS</p>
+            <p>Multi-page site &middot; HTML, CSS</p>
           </div>
         </div>
-      </div>
+      </div></a>
       <div class="project">
-        <div class="project-item">
-          <img src="./access/slike/project2.png" alt="project2">
+        <a class="project-link" href="https://github.com/MinaJevtic7523/minajevtic" target="_blank" rel="noopener"><div class="project-item">
+          <img src="./access/slike/project2.png" alt="Portfolio preview">
           <div class="overlay">
             <div class="caption">
               <h2>PORTFOLIO</h2>
-              <p>Personal portfolio-technologies:HTML,SASS</p>
+              <p>This site &middot; HTML, Sass</p>
             </div>
           </div>
-        </div>
+        </div></a>
         <div class="project">
-          <div class="project-item">
-            <img src="./access/slike/cooming soon.avif" alt="cooming_soon">
+          <a class="project-link" href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener"><div class="project-item">
+            <img src="./access/slike/more-on-github.png" alt="More projects on GitHub">
             <div class="overlay">
               <div class="caption">
-                <h2>COOMING SOON</h2>
-                <p>This project in progress...</p>
+                <h2>MORE ON GITHUB</h2>
+                <p>PHP, Laravel and JavaScript projects</p>
               </div>
             </div>
-          </div>
+          </div></a>
         </div>
       </div>
     </div>
@@ -185,8 +191,8 @@
     <div class="aboutSecond">
       <img src="./access/slike/mojaslika.jpeg" alt="mojaslika" />
       <div class="aboutText">
-        <h3>Mina Jevtić,75/23</h3>
-      <p> WebDeveloper & Web Designer Based in Serbia</p>
+        <h3>Mina Jevtić</h3>
+      <p>Web developer based in Belgrade, Serbia</p>
   
       <p> I'm excited to bring my skills and expertise to your next web development project. Whether you need a new
         website
@@ -194,30 +200,28 @@
         Please
         feel free to get in touch to discuss your project and how I can help bring your vision to life.</p>
   
-      <p><span> E-mail:</span> mina.jevtic.75.23@ict.edu.rs</p>
+      <p><span> E-mail:</span> <a href="mailto:jevticm319@gmail.com">jevticm319@gmail.com</a></p>
   
-      <p><span> Phone:</span> +123 456 789</p>
+      <p><span> Location:</span> Belgrade, Serbia</p>
   
-      <p><span> Location:</span> Serbia</p>
-  
-      <p><span> Age:</span> 19</p>
-      <span class="btn"><a href="#contact">Download CV</a></span>
+      <p><span> GitHub:</span> <a href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener">github.com/MinaJevtic7523</a></p>
+      <span class="btn"><a href="./access/cv/Mina-Jevtic-CV.pdf" download>Download CV</a></span>
       </div>
     </div>
   </div>
 
   <div id="contact">
     <div class="contact">
-      <h1>Contact Us</h1>
+      <h1>Contact Me</h1>
       <div class="contact-form">
-        <form action="#" method="post">
+        <form action="mailto:jevticm319@gmail.com" method="post" enctype="text/plain">
           <div class="form-group">
-            <label for="name">First name:</label>
-            <input type="text" id="name" name="name" placeholder="First name" required>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="first name" placeholder="First name" required>
           </div>
           <div class="form-group">
-            <label for="name">Last name:</label>
-            <input type="text" id="name" name="name" placeholder="Last name" required>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="last name" placeholder="Last name" required>
           </div>
           <div class="form-group">
             <label for="email">Email:</label>
@@ -257,7 +261,7 @@
           </div>
         </div>
         <div id="copyright" class="ta-c">
-          <p>Copyright © 2023 Mina Jevtić all rights reserved.</p>
+          <p>Copyright © 2026 Mina Jevtić all rights reserved.</p>
         </div>
       </div>
     </footer>

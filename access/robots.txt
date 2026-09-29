@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://m1na123.github.io/MinaJevtic/access/sitemap%20(1).xml

@@ -1,273 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./access/css/index.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="./access/css/sass.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <meta name="description" content="Portfolio of Mina Jevtić, web developer from Belgrade: PHP, Laravel, MySQL, JavaScript, HTML, CSS and Sass.">
-  <link rel="stylesheet" href="./access/css/fixes.css">
   <title>Mina Jevtić | Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Mina Jevtić, web developer from Belgrade, Serbia. PHP, Laravel, MySQL, JavaScript, HTML, CSS and Sass.">
+  <meta name="author" content="Mina Jevtić">
+  <meta property="og:title" content="Mina Jevtić | Web Developer Portfolio">
+  <meta property="og:description" content="Web developer from Belgrade working with PHP, Laravel, MySQL and JavaScript.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://minajevtic7523.github.io/MinaJevtic/">
+  <meta property="og:image" content="https://minajevtic7523.github.io/MinaJevtic/access/slike/hero.jpg">
+  <link rel="icon" href="./access/slike/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./access/css/style.css">
 </head>
 
 <body>
-  <div id="header">
-    <img src="./access/slike/mjj.png" alt="mjj" />
-    <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#skills">SKILLS</a></li>
-      <li><a href="#services">SERVICES</a></li>
-      <li><a href="#projects">PROJECTS</a></li>
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-    </ul>
-    <div class="scroll-progress" style="width: 0%;"></div>
-  </div>
-  <div id="home">
-    <img src="./access/slike/work.jpg" alt="back" />
-    <div id="slova">
-      <h2>Hello, my name is</h2>
-      <h1>Mina Jevtić</h1>
-      <h3>and I'm a web developer.</h3>
-      <div class="wrapper">
-        <div class="icon github">
-          <div class="tooltip">Github</div>
-          <span><a href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="fab fa-github"></i></a></span>
-        </div>
-        <div class="icon email">
-          <div class="tooltip">Email</div>
-          <span><a href="mailto:jevticm319@gmail.com" aria-label="Send an email"><i class="fas fa-envelope"></i></a></span>
-        </div>
-      </div>
-    </div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  </div>
-    <div id="skills">
-    <h1 class="naslov"><a href="#">Skills</a></h1>
-    <a href="">
-      <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/ios-filled/150/000000/html-5--v1.png" alt="html-5--v1">
-        <h1>HTML</h1>
-        <p> is the language used to create and structure web pages.</p>
-      </div>
-      <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/ios-filled/250/css3.png" alt="css3">
-        <h1>CSS</h1>
-        <p>is a styling language that controls the look and feel of HTML elements on a web page.</p>
-      </div>
-      <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/ios-filled/150/javascript-logo.png" alt="javascript-logo">
-        <h1> JavaScript</h1>
-        <p> is a programming language that adds interactivity and dynamic behavior to web pages.</p>
-      </div>
-      <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/external-responsive-web-hosting-xnimrodx-lineal-xnimrodx.png" alt="external-responsive-web-hosting-xnimrodx-lineal-xnimrodx">
-        <h1>Responsive</h1>
-        <p> design adjusts websites for optimal viewing on different devices.</p>
-      </div>
-      <div class="skills2"><i class="fab fa-php"></i>
-        <h1>PHP</h1>
-        <p>is a server-side language used to build dynamic sites, logins, forms and admin panels.</p>
-      </div>
-      <div class="skills2"><i class="fab fa-laravel"></i>
-        <h1>Laravel</h1>
-        <p>is a PHP framework for structured web apps with routing, Blade templates and Eloquent.</p>
-      </div>
-      <div class="skills2"><i class="fas fa-database"></i>
-        <h1>MySQL</h1>
-        <p>is a relational database used to store and query the data behind web applications.</p>
-      </div>
-      <div class="skills2"><i class="fab fa-git-alt"></i>
-        <h1>Git &amp; GitHub</h1>
-        <p>version control for tracking changes and publishing projects.</p>
-      </div>
-      <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/ios-filled/150/sass.png" alt="sass">
-        <h1>Sass</h1>
-        <p> is a tool that makes writing CSS easier by allowing for variables, nesting, and other helpful features.</p>
-      </div>
-      <div class="skills2"><img width="100" height="100" src="https://img.icons8.com/windows/128/less-logo.png" alt="less-logo">
-        <h1>Less</h1>
-        <p> a streamlined CSS file with minimized code for improved website performance and maintenance.</p>
-      </div>
-    </a>
-  </div>
-   
-  </div>
-  <div id="services">
-    <h1 class="naslov1"><a href="#">Services</a></h1>
-    <div id="first">
-      <div class="firstDiv">
-        <img width="100" height="100"
-          src="https://img.icons8.com/external-ddara-lineal-ddara/64/external-front-end-digital-marketing-ddara-lineal-ddara.png"
-          alt="external-front-end-digital-marketing-ddara-lineal-ddara" />
-        <h1>Front-end</h1>
-        <p>
-          Front-end development focuses on building the user interface and experience of websites or web applications
-          using HTML, CSS, and JavaScript.</p>
-      </div>
-      <div class="firstDiv">
-        <img width="100" height="100" src="https://img.icons8.com/ios/100/programming.png" alt="programming" />
-        <h1>Backend</h1>
-        <p>
-          Backend development involves managing server-side operations of websites or applications, including data
-          storage, processing, and interaction with the frontend.</p>
-      </div>
-      <div class="firstDiv">
-        <img width="100" height="100" src="https://img.icons8.com/ios/100/web.png" alt="web" />
-        <h1>Design UI/UX</h1>
-        <p>UI/UX design focuses on creating user-friendly and visually appealing interfaces for websites or
-          applications, emphasizing usability and engagement.</p>
-      </div>
-
-      <div class="firstDiv">
-        <img width="100" height="100" src="https://img.icons8.com/dotty/80/laptop-metrics--v3.png"
-          alt="laptop-metrics--v3" />
-        <h1>SEO</h1>
-        <p>
-          SEO (Search Engine Optimization) is the practice of improving a website's visibility and ranking in search
-          engine results to increase organic traffic.</p>
-      </div>
-      <div class="firstDiv">
-        <img width="100" height="100" src="https://img.icons8.com/ios/100/database--v1.png" alt="database--v1" />
-        <h1>Database</h1>
-        <p>
-          A database is a structured collection of data stored electronically, managed by a database management system,
-          used
-          for efficient data storage and retrieval.</p>
-      </div>
-      <div class="firstDiv">
-        <img width="100" height="100" src="https://img.icons8.com/ios/100/google-code.png" alt="google-code" />
-        <h1>Web development</h1>
-        <p>
-          Web development is the process of building websites or web applications, covering both front-end and back-end
-          tasks
-          to ensure functionality and user interaction online.</p>
-      </div>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Mina Jevtić, back to top">MJ</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#top">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-  </div>
-  <div id="projects">
-    <h1><a href="#">Projects</a></h1>
-    <div class="project">
-      <a class="project-link" href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener"><div class="project-item">
-        <img src="./access/slike/project1.png" alt="Restaurant website preview">
-        <div class="overlay">
-          <div class="caption">
-            <h2>RESTAURANT</h2>
-            <p>Multi-page site &middot; HTML, CSS</p>
-          </div>
+    <div class="scroll-progress" id="progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Hello, my name is</p>
+        <h1 id="hero-title">Mina Jevtić</h1>
+        <p class="hero-role">I'm a web developer from Belgrade. I build websites and web applications with PHP, Laravel, MySQL and JavaScript.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-light" href="./access/cv/Mina-Jevtic-CV.pdf" download>Download CV</a>
         </div>
-      </div></a>
-      <div class="project">
-        <a class="project-link" href="https://github.com/MinaJevtic7523/minajevtic" target="_blank" rel="noopener"><div class="project-item">
-          <img src="./access/slike/project2.png" alt="Portfolio preview">
-          <div class="overlay">
-            <div class="caption">
-              <h2>PORTFOLIO</h2>
-              <p>This site &middot; HTML, Sass</p>
+        <ul class="social" aria-label="Links">
+          <li>
+            <a href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:jevticm319@gmail.com" aria-label="Send me an email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title" id="skills-title">Skills</h2>
+        <p class="section-lead">The technologies I use most, from my studies and my own projects.</p>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Front-end</h3>
+            <ul class="chips">
+              <li>HTML5</li><li>CSS3</li><li>Sass</li><li>JavaScript</li><li>jQuery</li><li>AJAX</li><li>Responsive design</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Back-end</h3>
+            <ul class="chips">
+              <li>PHP</li><li>Laravel</li><li>MySQL</li><li>REST APIs</li><li>ASP.NET Core</li><li>Java Servlets / JSP</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Tools &amp; systems</h3>
+            <ul class="chips">
+              <li>Git &amp; GitHub</li><li>Linux</li><li>Apache</li><li>VMware</li><li>UML</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <h2 class="section-title" id="services-title">Services</h2>
+        <p class="section-lead">What I can build for you.</p>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Websites &amp; landing pages</h3>
+            <p>Clean, responsive websites in HTML, CSS and JavaScript that look good on phones, tablets and desktops.</p>
+          </article>
+          <article class="card">
+            <h3>Web applications</h3>
+            <p>Dynamic apps in PHP and Laravel with user accounts, forms, filtering, image upload and admin panels.</p>
+          </article>
+          <article class="card">
+            <h3>Databases</h3>
+            <p>Designing and querying MySQL databases so your data is stored in a clear and reliable way.</p>
+          </article>
+          <article class="card">
+            <h3>Server setup</h3>
+            <p>Basic Linux server configuration for hosting: Apache, virtual hosts and file sharing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title" id="projects-title">Projects</h2>
+        <p class="section-lead">A few things I have built. The source code is on GitHub.</p>
+        <div class="grid grid-3">
+          <a class="project" href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener">
+            <img src="./access/slike/restaurant.jpg" alt="Preview of the restaurant website" width="900" height="394" loading="lazy">
+            <div class="project-body">
+              <h3>Restaurant website</h3>
+              <p>Multi-page responsive site with menu, gallery, about and contact pages.</p>
+              <span class="tag">HTML · CSS</span>
             </div>
-          </div>
-        </div></a>
-        <div class="project">
-          <a class="project-link" href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener"><div class="project-item">
-            <img src="./access/slike/more-on-github.png" alt="More projects on GitHub">
-            <div class="overlay">
-              <div class="caption">
-                <h2>MORE ON GITHUB</h2>
-                <p>PHP, Laravel and JavaScript projects</p>
-              </div>
+          </a>
+          <a class="project" href="https://github.com/MinaJevtic7523/MinaJevtic" target="_blank" rel="noopener">
+            <img src="./access/slike/portfolio.jpg" alt="Preview of this portfolio" width="900" height="538" loading="lazy">
+            <div class="project-body">
+              <h3>This portfolio</h3>
+              <p>Responsive one-page portfolio with a downloadable CV and a contact form.</p>
+              <span class="tag">HTML · CSS · JavaScript</span>
             </div>
-          </div></a>
+          </a>
+          <a class="project" href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener">
+            <img src="./access/slike/more.jpg" alt="More projects on GitHub" width="900" height="600" loading="lazy">
+            <div class="project-body">
+              <h3>More on GitHub</h3>
+              <p>More PHP, Laravel and JavaScript projects are on my GitHub profile.</p>
+              <span class="tag">github.com/MinaJevtic7523</span>
+            </div>
+          </a>
         </div>
       </div>
-    </div>
-  </div>
-  </div>
-  <div id="about">
-   
-    <div class="aboutFirst">
-      <h1 class="naslov3"><a href="#">About me</a></h1>
-    </div>
-    <div class="aboutSecond">
-      <img src="./access/slike/mojaslika.jpeg" alt="mojaslika" />
-      <div class="aboutText">
-        <h3>Mina Jevtić</h3>
-      <p>Web developer based in Belgrade, Serbia</p>
-  
-      <p> I'm excited to bring my skills and expertise to your next web development project. Whether you need a new
-        website
-        built from scratch or want to improve the performance and functionality of an existing site, I'm here to help.
-        Please
-        feel free to get in touch to discuss your project and how I can help bring your vision to life.</p>
-  
-      <p><span> E-mail:</span> <a href="mailto:jevticm319@gmail.com">jevticm319@gmail.com</a></p>
-  
-      <p><span> Location:</span> Belgrade, Serbia</p>
-  
-      <p><span> GitHub:</span> <a href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener">github.com/MinaJevtic7523</a></p>
-      <span class="btn"><a href="./access/cv/Mina-Jevtic-CV.pdf" download>Download CV</a></span>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <div id="contact">
-    <div class="contact">
-      <h1>Contact Me</h1>
-      <div class="contact-form">
-        <form action="mailto:jevticm319@gmail.com" method="post" enctype="text/plain">
-          <div class="form-group">
-            <label for="firstname">First name:</label>
-            <input type="text" id="firstname" name="first name" placeholder="First name" required>
+    <section class="section section-tint" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <img class="about-photo" src="./access/slike/about.jpg" alt="Portrait of Mina Jevtić" width="720" height="965" loading="lazy">
+        <div class="about-text">
+          <h2 class="section-title left" id="about-title">About me</h2>
+          <p class="about-name">Mina Jevtić, web developer based in Belgrade, Serbia</p>
+          <p>I am a third-year Information and Communication Technologies student at the ICT College of Vocational Studies in Belgrade. I enjoy turning ideas into working websites and web applications, from the database to the user interface.</p>
+          <p>I am looking for a stable remote or full-time web development role, and I am open to freelance projects. If you have a project in mind, get in touch.</p>
+          <dl class="facts">
+            <div><dt>Email</dt><dd><a href="mailto:jevticm319@gmail.com">jevticm319@gmail.com</a></dd></div>
+            <div><dt>GitHub</dt><dd><a href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener">github.com/MinaJevtic7523</a></dd></div>
+            <div><dt>Location</dt><dd>Belgrade, Serbia</dd></div>
+            <div><dt>Languages</dt><dd>Serbian (native), English (C1)</dd></div>
+          </dl>
+          <a class="btn btn-primary" href="./access/cv/Mina-Jevtic-CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container narrow">
+        <h2 class="section-title" id="contact-title">Contact me</h2>
+        <p class="section-lead">Send me a message and I will get back to you by email.</p>
+        <form class="form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" name="firstname" autocomplete="given-name" required>
           </div>
-          <div class="form-group">
-            <label for="lastname">Last name:</label>
-            <input type="text" id="lastname" name="last name" placeholder="Last name" required>
+          <div class="field">
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" autocomplete="family-name" required>
           </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Email" required>
+          <div class="field full">
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
           </div>
-          <div class="form-group">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Message" required></textarea>
+          <div class="field full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
           </div>
-          <div class="form-group">
-            <input type="submit" value="Submit">
-          </div>
+          <p class="form-status full" id="formStatus" role="status" aria-live="polite"></p>
+          <button class="btn btn-primary full" type="submit">Send message</button>
         </form>
       </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Mina Jevtić. All rights reserved.</p>
+      <p><a href="https://github.com/MinaJevtic7523" target="_blank" rel="noopener">GitHub</a> · <a href="mailto:jevticm319@gmail.com">Email</a></p>
     </div>
-  </div>
-  <div id="footer">
-    <footer>
-      <div class="centar-blok flex fd-c jc-a ai-c m-auto">
-        <div id="kodovi" class="m-auto flex jc-b ai-c">
-          <div class="link">
-            <a href="./access/sitemap (1).xml" target="_blank">
-              <img width="50" height="50"
-                src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/100/external-sitemap-digital-marketing-smashingstocks-glyph-smashing-stocks.png"
-                alt="external-sitemap-digital-marketing-smashingstocks-glyph-smashing-stocks" />
-            </a>
-          </div>
-          <div class="link">
-            <a href="./access/css/sass.css" target="_blank">
-              <img width="50" height="50" src="https://img.icons8.com/ios-filled/100/sass.png" alt="sass" />
-            </a>
-          </div>
-          <div class="link">
-            <a href="./access/robots.txt" target="_blank">
-              <img width="50" height="50" src="https://img.icons8.com/dotty/100/txt.png" alt="txt"/>
-            </a>
-          </div>
-        </div>
-        <div id="copyright" class="ta-c">
-          <p>Copyright © 2026 Mina Jevtić all rights reserved.</p>
-        </div>
-      </div>
-    </footer>
-  </div>
+  </footer>
 
-
+  <script src="./access/js/main.js"></script>
 </body>
-
 </html>
